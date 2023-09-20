@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>About</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body id="myPage">
+
+  <!-- Sidebar on click -->
+  <nav class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-left w3-xxlarge" style="display:none;z-index:2"
+    id="mySidebar">
+    <a href="javascript:void(0)" onclick="w3_close()"
+      class="w3-bar-item w3-button w3-display-topright w3-text-teal">LINKS
+      <i class="fa fa-remove"></i>
+    </a>
+    <a href="#" class="w3-bar-item w3-button">paper 1</a>
+    <a href="#" class="w3-bar-item w3-button">paper 2</a>
+    <a href="#" class="w3-bar-item w3-button">paper 3</a>
+    <a href="#" class="w3-bar-item w3-button">paper 4</a>
+    <a href="#" class="w3-bar-item w3-button">paper 5</a>
+  </nav>
+
+  <!-- Navbar -->
+  <div class="w3-top">
+    <div class="w3-bar w3-theme-d2 w3-left-align">
+      <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-indigo w3-theme-d2"
+        href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+      <a href="index.html" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i></a>
+      <!-- <a href="#team" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Team</a>
+  <a href="#work" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Work</a>
+  <a href="#pricing" class="w3-bar-item w3-button w3-hide-small w3-hover-white">News</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contact</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+    <button class="w3-button" title="Notifications">Dropdown <i class="fa fa-caret-down"></i></button>     
+    <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+      <a href="#" class="w3-bar-item w3-button">Link</a>
+      <a href="#" class="w3-bar-item w3-button">Link</a>
+      <a href="#" class="w3-bar-item w3-button">Link</a>
+    </div> -->
+      <p class="w3-center">SYSTEMS AND SYNTHETIC BIOLOGY LABORATORY</p>
+    </div>
+    <a href="https://www.google.co.in" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-teal"
+      title="Search"><i class="fa fa-search"></i></a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <!-- <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+    <a href="#team" class="w3-bar-item w3-button">Team</a>
+    <a href="#work" class="w3-bar-item w3-button">Work</a>
+    <a href="#pricing" class="w3-bar-item w3-button">Price</a>
+    <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    <a href="#" class="w3-bar-item w3-button">Search</a>
+  </div> -->
+  </div>
+
+  <!-- Image Header -->
+  <div class="w3-display-container w3-animate-opacity">
+    <img src="image/lab_img2.jpg" alt="boat" style="width:100%;min-height:350px;max-height:600px;">
+    <div class="w3-container w3-display-bottomleft w3-margin-bottom">
+      <button onclick="document.getElementById('id01').style.display='block'"
+        class="w3-button w3-xlarge w3-theme w3-hover-teal" title="Go To W3.CSS">SSBL LABORATORY</button>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div id="id01" class="w3-modal">
+    <div class="w3-modal-content w3-card-4 w3-animate-top">
+      <header class="w3-container w3-teal w3-display-container">
+        <span onclick="document.getElementById('id01').style.display='none'"
+          class="w3-button w3-teal w3-display-topright"><i class="fa fa-remove"></i></span>
+        <h4>About to know more !</h4>
+        <h5> <i class="fa fa-smile-o"></i></h5>
+      </header>
+      <div class="w3-container">
+        <p>Research areas</p>
+        <p>Go to our <a class="w3-text-teal" href="Research.html">Research section</a> to know more!</p>
+      </div>
+      <footer class="w3-container w3-teal">
+        <p>Thank you for Beang hair</p>
+      </footer>
+    </div>
+  </div>
+
+  <!-- Team Container -->
+  <div class="w3-container w3-padding-64 w3-center" id="team">
+    <h2>OUR MEMBERS</h2>
+    <p>and thair research arias</p>
+
+    <div class="w3-row"><br>
+
+      <div class="w3-quarter">
+        <img src="image/bharat_img2.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+        <h3>Bharat manna</h3>
+        <p>Computational Biology</p>
+      </div>
+
+      <div class="w3-quarter">
+        <img src="image/pk_web3.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+        <h3>Pritam kundu</h3>
+        <p>Metagenomics</p>
+      </div>
+
+      <div class="w3-quarter">
+        <img src="image/manali_das.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+        <h3>Manali Das</h3>
+        <p>Metabolic Engineering</p>
+      </div>
+
+      <div class="w3-quarter">
+        <img src="image/Gourab.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+        <h3>Gourab Bhattacharje</h3>
+        <p>Computational Biology</p>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Work Row -->
+  <div class="w3-row-padding w3-padding-64 w3-theme-l1" id="work">
+
+    <div class="w3-quarter">
+      <h2>ABOUT US</h2>
+      <p class="w3-justify">Rising costs and a depleting supply of oil, as well as environmental concerns, have
+        led to strong interest in renewable fuels and chemicals.In the last decade, there was considerable
+        interest for
+        microbial production of biofuels by metabolic engineering approach as an attractive alternative to
+        transportation fuels.
+
+        Recent advancements of synthetic biology have led to the further development of genetic engineering of
+        microorganism, which has been great motivation for developing strategy for microbial production of
+        biofuels. Rational design of metabolism is very important for production of biofuels. In silico prediction of
+        metabolic
+        flux distribution of the metabolic pathways have enabled us to decide the time consuming steps in
+        metabolic
+        engineering.
+        In recent years significant efforts have been made to engineer microorganisms to produce bioethanol,
+        higher
+        chain alcohols, fatty acids and isoprenoid based biodiesel. Metabolic engineering involves improvement
+        of
+        biofuels formation through the modification of specific genes or addition of new genes involved in
+        biochemical reactions with the use of recombinant DNA technology. System-level approach to analyze and engineer
+        metabolism based on flux distributions obtained from metabolomics and 13C metabolic flux analysis have been
+        extensively used by our group to produce biofuels in Escherichia coli and yeast.</p>
+    </div>
+
+    <div class="w3-quarter">
+      <div class="w3-card w3-white">
+        <img src="for_web/1-s2.0-S2589014X22000469-gr1.jpg" alt="Snow" style="width:100%">
+        <div class="w3-container">
+          <h3>Systems Biology of Gut Microbiome</h3>
+          <p>Diverse environmental condition reinforce the growth of different microbial communities with specialized
+            characteristic. Metagenomic study along with computational technique disclose the structural and functional
+            complexity of microbial niche. Culture independent approach of metagenomics helps to conquer the hurdle of
+            characterization of unculturable microbes, enhancing clarity of community based microbiology. Gut microbiota
+            has been one of the most fascinating area of research during several decades because of enormous microbial
+            diversity and their metabolic potential. We are interested to study the cumulative potential of different
+            gut microbiota that effectively translate the lignocellusoic biomass to biofuel. A system level
+            understanding of the microbial interdependency and cross communication will decrypt the natural system
+            lignocellulose degradative system leading towards the designing of a successful invitro mechanism for
+            effective biomass conversion for biofuel production. Systematic mathematical model development of inter
+            species interaction will help to identify key-species (influencer) in microbial communities having powerful
+            lignocellulolytic property. </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-quarter">
+      <div class="w3-card w3-white">
+        <img src="image\slider_2.jpg" alt="Lights" style="width:100%">
+        <div class="w3-container">
+          <h3>CRISPR/Cas9 for Genome Engineering</h3>
+
+          <p>Clustered Regularly Interspaced Short Palindromic Repeats (CRISPR) and CRISPR-associated (Cas) proteins
+            were discovered in prokaryotes as an adaptive immune system against viral and plasmidal genome invasion. The
+            type II CRISPR/Cas system uses a tracrRNA:crRNA hybrid to bind to Cas9 protein and guide it to create a
+            site-specific double stranded break on target templates.Modification of the tracrRNA:crRNA hybrid to a
+            single guide RNA that has a customizable recognition sequence to guide DNA cleavage has become a very
+            popular technique in gene editing. CRISPR/Cas9 technique also allows a marker-less genome manipulation that
+            enables several modifications on the same strain. Post-cleavage of DNA with CRISPR/Cas9, the DNA repair
+            occurs via non-homologous end joining (NHEJ) or homologous recombination (HR).
+
+            An increasing global energy demand and environmental concerns associated with petroleum fuels have
+            necessitated the need for alternative liquid fuels (biofuels). Microbes such as yeasts can utilize sugars
+            (generally hexoses) to produce different compounds such as free fatty acids (FFA) and its derivatives such
+            as fatty-acid ethyl ester (FAEE), fatty alcohols and alkane/alkene. These biomolecules have energy content
+            comparable to diesel and petrol, making them an important candidate for biofuels. </p>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-quarter">
+      <div class="w3-card w3-white">
+        <img src="image/Cel.gif" alt="Mountains" style="width:100%">
+        <div class="w3-container">
+          <h3>Molecular Dynamics Simulation</h3>
+          <p>Molecular Dynamics Simulation is a classical mechanics based computational approach that enables to
+            investigate the behaviour of a microsystem consisting a large number of interacting particles and to predict
+            the bulk properties of the macrosystem at molecular level. GPU accelerated high-performance computing has
+            revolutionized the theoretical approached to study the structure and dynamics of biological macromolecules
+            from a nanosecond (ns) to milliseconds (ms) timescale in recent years.
+            Our lab is particularly interested to explore the molecular mechanism of various biological processes in the
+            domain of carbohydrates as well as protein chemistry using MD simulation. Currently, we are focussing to
+            understand the dissolution of cellulose in Ionic liquid (1-Ethyl-3-methylimidazolium acetate) and water
+            mixtures for designing a cost-effective and optimized lignocellulosic biomass pretreatment process using IL.
+            We are also working to develop theoretical insights behind the IL tolerance of thermostable cellulolytic
+            enzymes, which will guide the experimental biologists for engineering the existing cellulase with improved
+            saccharification kinetics. Moreover, molecular simulations of proteins reveal multiple conformational states
+            in a trajectory ensemble which can explain its in-vivo functionality. Steered Molecular Dynamics are also
+            routinely carried out in our lab to study the force induced unfolding of proteins.</p>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Container -->
+  <div class="w3-container" style="position:relative">
+    <a onclick="w3_open()" class="w3-button w3-xlarge w3-circle w3-teal"
+      style="position:absolute;top:-28px;right:24px">+</a>
+  </div>
+
+
+  <!-- Contact Container -->
+  <div class="w3-container w3-padding-64 w3-theme-l5" id="contact">
+    <div class="w3-row">
+      <div class="w3-col m5">
+        <div class="w3-padding-16"><span class="w3-xlarge w3-border-teal w3-bottombar">Contact Us</span></div>
+        <h3>Address</h3>
+        <p></p>
+        <p><i class="fa fa-map-marker w3-text-teal w3-xlarge"></i>  School of Energy Science and Engineering
+          Sir J.C. Bose Laboratory Complex, West Bengal</p>
+        <p><i class="fa fa-phone w3-text-teal w3-xlarge"></i>  +91-3222-260804</p>
+        <p><i class="fa fa-envelope-o w3-text-teal w3-xlarge"></i>  amitghosh@iitkgp.ac.in</p>
+      </div>
+      <div class="w3-col m7">
+        <form class="w3-container w3-card-4 w3-padding-16 w3-white" action="/action_page.php" target="_blank">
+          <div class="w3-section">
+            <label>Name</label>
+            <input class="w3-input" type="text" name="Name" required>
+          </div>
+          <div class="w3-section">
+            <label>Email</label>
+            <input class="w3-input" type="text" name="Email" required>
+          </div>
+          <div class="w3-section">
+            <label>Message</label>
+            <input class="w3-input" type="text" name="Message" required>
+          </div>
+          <input class="w3-check" type="checkbox" checked name="Like">
+          <label>Confirm!</label>
+          <button type="submit" class="w3-button w3-right w3-theme">Send</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Image of location/map -->
+  <!-- <img src="images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%;"> -->
+
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-32 w3-theme-d1 w3-center">
+    <h4>Follow Us</h4>
+    <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Facebook"><i class="fa fa-facebook"></i></a>
+    <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Twitter"><i class="fa fa-twitter"></i></a>
+    <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Google +"><i
+        class="fa fa-google-plus"></i></a>
+    <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Google +"><i class="fa fa-instagram"></i></a>
+    <a class="w3-button w3-large w3-teal w3-hide-small" href="javascript:void(0)" title="Linkedin"><i
+        class="fa fa-linkedin"></i></a>
+    <p>Designe by <a href="#" target="_blank">SG</a></p>
+
+    <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right">
+      <span class="w3-text w3-padding w3-teal w3-hide-small">Go To Top</span>
+      <a class="w3-button w3-theme" href="#myPage"><span class="w3-xlarge">
+          <i class="fa fa-chevron-circle-up"></i></span></a>
+    </div>
+  </footer>
+
+  <script>
+    // Script for side navigation
+    function w3_open() {
+      var x = document.getElementById("mySidebar");
+      x.style.width = "200px";
+      x.style.paddingTop = "10%";
+      x.style.display = "block";
+    }
+
+    // Close side navigation
+    function w3_close() {
+      document.getElementById("mySidebar").style.display = "none";
+    }
+
+    // Used to toggle the menu on smaller screens when clicking on the menu button
+    function openNav() {
+      var x = document.getElementById("navDemo");
+      if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+      } else {
+        x.className = x.className.replace(" w3-show", "");
+      }
+    }
+  </script>
+
+</body>
+
+</html>

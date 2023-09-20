@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Team Members</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="CSS\style_1.css">
+    <link rel="stylesheet" href="CSS\group_1.css">
+    <style>
+        body {
+            font-family: "Lato", sans-serif
+        }
+
+        l .mySlides {
+            display: none
+        }
+    </style>
+</head>
+
+
+<body>
+    <!-- Navbar -->
+    <div class="w3-top">
+        <div class="w3-bar w3-teal w3-card">
+            <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right"
+                href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i
+                    class="fa fa-bars"></i></a>
+            <a href="index.html" class="w3-bar-item w3-button w3-padding-large">Home</a>
+            <a href="Research.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Research</a>
+
+            <a href="publication.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Publications</a>
+            <a href="Teaching.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Teaching</a>
+            <a href="News.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">News</a>
+            <!-- <a href="#Contacat" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Contacat</a> -->
+            <a href="Team.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Team</a>
+            <a href="gallery.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Gallery</a>
+            <div class="w3-dropdown-hover w3-hide-small">
+                <button class="w3-padding-large w3-button" title="More">Tools</button>
+                <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                    <a href="Equipment.html" class="w3-bar-item w3-button">Equipment</a>
+                    <a href="HPC.html" class="w3-bar-item w3-button">Software</a>
+                </div>
+            </div>
+            <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i
+                    class="fa fa-search"></i></a>
+        </div>
+    </div>
+
+    <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+    <div id="navDemo" class="w3-bar-block w3-teal w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+        <a href="publication.html" class="w3-bar-item w3-button w3-padding-large"
+            onclick="myFunction()">Publications</a>
+        <a href="Research.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Research</a>
+        <!-- <a href="News.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">News</a> -->
+        <a href="Teaching.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Teaching</a>
+        <a href="Team.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Team</a>
+        <a href="gallery.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Gallery</a>
+        <a href="Equipment.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Equipment</a>
+        <a href="HPC.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Software</a>
+    </div>
+    <div class="container1" style="background-color: rgb(247, 247, 247);">
+        <div class="image1">
+            <img src="image\logo iitkgp.jpeg" style="height: 65px; height: 75px;">
+        </div>
+        <div class="text1">
+            <h1>SYSTEMS AND SYNTHETIC BIOLOGY LABORATORY</h1>
+        </div>
+    </div>
+    <!-- This is for foront image  -->
+    <!-- <div class="w3-display-container w3-animate-opacity">
+        <img src="image\IMG-20211219-WA0030 Gallery.jpg" alt="boat" style="width:100%;min-height:450px;max-height:550px;">
+        <div class="w3-container w3-display-bottomleft w3-margin-bottom">
+          <button onclick="document.getElementById('id01').style.display='block'"
+            class="w3-button w3-xlarge w3-theme w3-hover-teal" title="">SSBL LABORATORY</button>
+        </div>
+      </div> -->
+
+    <!-- current Members -->
+    <section class="team-section">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h1>Team Leader</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="team-items">
+                    <div class="item">
+                        <img src="image/Dr.AmitGhosh.png" style=" height: 300px;" alt="team" />
+                        <div class="inner">
+                            <div class="info">
+                                <h5>Amit Ghosh</h5>
+                                <p>Assistant Professor</p>
+                                <a href="https://www.iitkgp.ac.in/department/ES/faculty/es-amitghosh"><button
+                                        type="profile" class="w3-white w3-round w3-text-blue w3-hover-indigo">Institute
+                                        Profile</button></a>
+                                <div class="social-links">
+                                    <a href="https://scholar.google.co.in/citations?user=scPSfFcAAAAJ&hl=en"><span
+                                            class="fa fa-google scholar"></span></a>
+                                    <a href="https://www.iitkgp.ac.in/department/ES/faculty/es-amitghosh"><span
+                                            class="fa fa-user"></span></a>
+                                    <a href=""><span class="fa fa-linkedin"></span></a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h1>Our Team</h1>
+                    <p>Current Members</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="team-items">
+                    <div class="item">
+                        <img src="image/manali_das.jpg" style=" height: 300px;" alt="team" />
+                        <div class="inner">
+                            <div class="info">
+                                <h5>Manali Das</h5>
+                                <p>Senior Research Fellow</p>
+                                <p>Metabolic Engineering</p>
+                                <div class="social-links">
+                                    <a href="https://scholar.google.co.in/citations?user=H5HVsvQAAAAJ&hl=en"><span
+                                            class="fa fa-google scholar"></span></a>
+                                    <a href=""><span class="fa fa-linkedin"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="image/pradipta_patra.jpg" style=" height: 300px;" alt="team" />
+                        <div class="inner">
+                            <div class="info">
+                                <h5>Pradipta Patra</h5>
+                                <p>Senior Research Fellow</p>
+                                <p>Metabolic Engineering</p>
+                                <div class="social-links">
+                                    <a href="https://scholar.google.co.in/citations?user=StgkXQMAAAAJ&hl=en"><span
+                                            class="fa fa-google scholar"></span></a>
+                                    <a href=""><span class="fa fa-linkedin"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="image/pk_web3.jpg" style=" height: 300px;" alt="team" />
+                        <div class="inner">
+                            <div class="info">
+                                <h5>Pritam kundu</h5>
+                                <p>Senior Research Fellow</p>
+                                <p>Metagenomics</p>
+                                <div class="social-links">
+                                    <a href="https://scholar.google.co.in/citations?user=tSykQSMAAAAJ&hl=en"><span
+                                            class="fa fa-google scholar"></span></a>
+                                    <a href=""><span class="fa fa-linkedin"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="image/Gourab.jpg" style=" height: 300px;" alt="team" />
+                        <div class="inner">
+                            <div class="info">
+                                <h5>Gourab Bhattacharje</h5>
+                                <p>Senior Research Fellow</p>
+                                <p>Computational Biology</p>
+                                <div class="social-links">
+                                    <a
+                                        href="https://scholar.google.co.in/citations?hl=en&user=ncEJnskAAAAJ&view_op=list_works&sortby=pubdate"><span
+                                            class="fa fa-google scholar"></span></a>
+                                    <a href=""><span class="fa fa-linkedin"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="team-items">
+                    <div class="item">
+                        <img src="image/Romit.jpg" style=" height: 300px;" alt="team" />
+                        <div class="inner">
+                            <div class="info">
+                                <h5>Romit Mitra</h5>
+                                <p> Senior Research Fellow (MNRE)</p>
+                                <p> Process and Product Development</p>
+                                <div class="social-links">
+                                    <a href="https://scholar.google.co.in/citations?hl=en&user=Ih8U3_4AAAAJ"><span
+                                            class="fa fa-google scholar"></span></a>
+                                    <a href=""><span class="fa fa-linkedin"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="image\Rokesh.jpg" style=" height: 300px;" alt="team" />
+                        <div class="inner">
+                            <div class="info">
+                                <h5>Rokesh Radhakrishnan</h5>
+                                <p>Senior Research Fellow (Institute & DAAD)</p>
+                                <p>Structure and Function of Laccase</p>
+                                <div class="social-links">
+                                    <a href="https://scholar.google.co.in/citations?hl=en&user=ivSwAlYAAAAJ"><span
+                                            class="fa fa-google scholar"></span></a>
+                                    <a href=""><span class="fa fa-linkedin"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="image/IMG_20190814_164044174.jpg" style=" height: 300px;" alt="team" />
+                        <div class="inner">
+                            <div class="info">
+                                <h5>Suman Mondal</h5>
+                                <p> Junior Research Fellow (MNRE)</p>
+                                <p>Metagenomics</p>
+                                <br>
+                                <div class="social-links">
+                                    <a href="https://scholar.google.co.in/citations?user=hOH_pPkAAAAJ&hl=en"><span
+                                            class="fa fa-google scholar"></span></a>
+                                    <a href="https://www.linkedin.com/in/suman-mondal-a68829156"><span class="fa fa-linkedin"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="image\som dutt iit.jpg " style=" height: 300px;" alt="team" />
+                        <div class="inner">
+                            <div class="info">
+                                <h5>R Som Dutt </h5>
+                                <p>Senior Research Fellow </p>
+                                <p>Microbial production of Biofuels</p>
+                                <br>
+                                <div class="social-links">
+                                    <a href=""><span class="fa fa-google scholar"></span></a>
+                                    <a href="https://www.linkedin.com/in/somdutt-ravindran"><span
+                                            class="fa fa-linkedin"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="team-items">
+
+                    <div class="item">
+                        <img src="image\IMG-20200228-WA0083.jpg" style=" height: 300px;" alt="team" />
+                        <div class="inner">
+                            <div class="info">
+                                <h5>Ayusmita Ray</h5>
+                                <p>Junior Research Fellow</p>
+                                <p>Metabolic Engineering</p>
+                                <br>
+                                <div class="social-links">
+                                    <a href="https://scholar.google.co.in/citations?hl=en&user=rqmGs18AAAAJ"><span
+                                            class="fa fa-google scholar"></span></a>
+                                    <a href=""><span class="fa fa-linkedin"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="image\Satyajit beura.jpg" style=" height: 300px;" alt="team" />
+                        <div class="inner">
+                            <div class="info">
+                                <h5>Satyajit Beura</h5>
+                                <p>Senior Research Fellow (PMRF)</p>
+                                <p>Computational Biology</p>
+                                <div class="social-links">
+                                    <a href="https://scholar.google.co.in/citations?user=m3weOhsAAAAJ&hl=en"><span
+                                            class="fa fa-google scholar"></span></a>
+                                    <a href="https://sites.google.com/view/satyajitbeura"><span
+                                            class="fa fa-user"></span></a>
+                                    <a
+                                        href="https://www.linkedin.com/in/satyajit-beura-143321175/?originalSubdomain=in"><span
+                                            class="fa fa-linkedin"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="image\nidhi photo.jpg" style=" height: 300px;" alt="team" />
+                        <div class="inner">
+                            <div class="info">
+                                <h5>Nidhi Patawari</h5>
+                                <p>Junior Research Fellow</p>
+                                <p>Metabolic Engineering</p>
+                                <br>
+                                <div class="social-links">
+                                    <a href=""><span class="fa fa-google scholar"></span></a>
+                                    <a
+                                        href="https://www.linkedin.com/in/nidhi-patawari-789585138/?originalSubdomain=in"><span
+                                            class="fa fa-linkedin"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="image\Ruma Shankaran.jpg" style=" height: 300px;" alt="team" />
+                        <div class="inner">
+                            <div class="info">
+                                <h5>Ruma Shankaran</h5>
+                                <p>Junior Research Fellow </p>
+                                <p>Microbial Production of Biofuels</p>
+                                <div class="social-links">
+                                    <a href=""><span class="fa fa-google scholar"></span></a>
+                                    <a
+                                        href="https://www.linkedin.com/in/ruma-shankaran-ba3834178/?originalSubdomain=in"><span
+                                            class="fa fa-linkedin"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="image\Satyapir.jpg" style=" height: 300px;" alt="team" />
+                        <div class="inner">
+                            <div class="info">
+                                <h5>Satyapir Ghosh</h5>
+                                <p>Project Assistant</p>
+                                <p>Information Technology</p>
+                                <br>
+                                <div class="social-links">
+                                    <a href="Portfolio\portfolio.html"><span class="fa fa-user"></span></a>
+                                    <a href="https://www.linkedin.com/in/satyapir-ghosh-b49b0b163"><span
+                                            class="fa fa-linkedin"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="image\Sayan saha roy.jpg" style=" height: 300px;" alt="team" />
+                        <div class="inner">
+                            <div class="info">
+                                <h5>Sayan Saha Roy</h5>
+                                <p>Junior Research Fellow</p>
+                                <p>Computer simulation of Bioenergy Systems</p>
+                                <div class="social-links">
+                                    <a href="#"><span class="fa fa-google scholar"></span></a>
+                                    <a href="#"><span class="fa fa-linkedin"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h1 style="color:rgb(250, 253, 41);">Alumni Members</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="team-items">
+                    <div class="item">
+                        <img src="image/bharat_img2.jpg" style=" height: 300px;" alt="team" />
+                        <div class="inner">
+                            <div class="info">
+                                <h5>Bharat manna</h5>
+                                <p>Postdoctoral Fellow
+                                    (University of Auckland)</p>
+                                <div class="social-links">
+                                    <a href="https://scholar.google.com/citations?hl=en&user=X2-6aVoAAAAJ"><span
+                                            class="fa fa-google scholar"></span></a>
+                                    <a href=""><span class="fa fa-linkedin"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        // Used to toggle the menu on small screens when clicking on the menu button
+        function myFunction() {
+            var x = document.getElementById("navDemo");
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+            }
+        }
+    </script>
+
+</body>
+
+</html>

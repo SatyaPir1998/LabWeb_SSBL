@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>SSBL Laboratory</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="CSS\style_1.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div class="w3-top">
+        <div class="w3-bar w3-indigo w3-card">
+            <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right"
+                href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i
+                    class="fa fa-bars"></i></a>
+            <a href="index.html" class="w3-bar-item w3-button w3-padding-large">Home</a>
+            <!-- <a href="about.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">About</a> -->
+            <a href="Research.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Research</a>
+            <a href="publication.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Publications</a>
+            <a href="Teaching.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Teaching</a>
+            <a href="News.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">News</a>
+            <a href="Team.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Team</a>
+            <a href="gallery.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Gallery</a>
+            <div class="w3-dropdown-hover w3-hide-small">
+                <button class="w3-padding-large w3-button" title="More">Tools</button>
+                <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                    <a href="Equipment.html" class="w3-bar-item w3-button">Equipment</a>
+                    <a href="HPC.html" class="w3-bar-item w3-button">Software</a>
+                </div>
+            </div>
+            <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i
+                    class="fa fa-search"></i></a>
+        </div>
+    </div>
+
+    <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+    <div id="navDemo" class="w3-bar-block w3-indigo w3-hide w3-hide-large w3-hide-medium w3-top"
+        style="margin-top:46px">
+        <a href="publication.html" class="w3-bar-item w3-button w3-padding-large"
+            onclick="myFunction()">Publications</a>
+        <a href="Research.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Research</a>
+        <a href="Teaching.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Teaching</a>
+        <a href="Team.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Team</a>
+        <a href="gallery.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Gallery</a>
+        <a href="Equipment.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Equipment</a>
+        <a href="HPC.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Software</a>
+    </div>
+
+    <div class="container1" style="background-color: rgb(247, 247, 247);">
+        <div class="image1">
+            <img src="image\logo iitkgp.jpeg" style="height: 65px; height: 75px;">
+        </div>
+        <div class="text1">
+            <h1>SYSTEMS AND SYNTHETIC BIOLOGY LABORATORY</h1>
+        </div>
+    </div>
+    <!-- Page content -->
+    <div class="w3-content" style="max-width:100%;">
+
+        <!-- Automatic Slideshow Images -->
+
+        <div class="mySlides w3-display-container w3-center">
+            <img src="for_web\2-s2.0-S0141813021007613-gr11_lrg.jpg" style="width:100%; height: 30vw;">
+            <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+            </div>
+        </div>
+        <div class="mySlides w3-display-container w3-center">
+            <img src="for_web\1-s2.0-S0006291X22009482-gr2_lrg.jpg" style="width: 100%; height: 30vw;">
+            <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+            </div>
+        </div>
+        <div class="mySlides w3-display-container w3-center">
+            <img src="for_web\1-s2.0-S0010482522005558-gr6_lrg.jpg" style="width:100%; height: 30vw; ">
+            <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+            </div>
+        </div>
+        <div class="mySlides w3-display-container w3-center">
+            <img src="for_web\1-s2.0-S0303264722001447-gr4_lrg.jpg" style="width:100%; height: 30vw;">
+            <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+            </div>
+        </div>
+        <div class="mySlides w3-display-container w3-center">
+            <img src="for_web\1-s2.0-S0304389421020914-ga1_lrg.jpg" style="width:100%; height: 30vw;">
+            <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+            </div>
+        </div>
+        <div class="mySlides w3-display-container w3-center">
+            <img src="for_web\1-s2.0-S0734975022001653-gr3.jpg" style="width:100%; height: 30vw;">
+            <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+            </div>
+        </div>
+        <!-- The Band Section -->
+        <div class="w3-container w3-content w3-center w3-padding-20" style="max-width:900px" id="band">
+            <h2 class="w3-wide">Mission</h2>
+            <p class="w3-justify">Rising costs and a depleting supply of oil, as well as environmental concerns, have
+                led to strong interest in renewable fuels and chemicals.In the last decade, there was considerable
+                interest for
+                microbial production of biofuels by metabolic engineering approach as an attractive alternative to
+                transportation fuels.
+
+                Recent advancements of synthetic biology have led to the further development of genetic engineering of
+                microorganism, which has been great motivation for developing strategy for microbial production of
+                biofuels.
+                Rational design of metabolism is very important for production of biofuels. In silico prediction of
+                metabolic
+                flux distribution of the metabolic pathways have enabled us to decide the time consuming steps in
+                metabolic
+                engineering.
+
+                In recent years significant efforts have been made to engineer microorganisms to produce bioethanol,
+                higher
+                chain alcohols, fatty acids and isoprenoid based biodiesel. Metabolic engineering involves improvement
+                of
+                biofuels formation through the modification of specific genes or addition of new genes involved in
+                biochemical
+                reactions with the use of recombinant DNA technology. System-level approach to analyze and engineer
+                metabolism
+                based on flux distributions obtained from metabolomics and 13C metabolic flux analysis have been
+                extensively
+                used by our group to produce biofuels in Escherichia coli and yeast.</p>
+
+        </div>
+    </div>
+
+    <!-- 
+    <hr>
+    .................... table_scroll ........................-->
+    <!-- <div>
+        
+    </div> -->
+    <!-- <h2 class=" w3-center w3-wide">Recent Publications</h2>
+    <hr>
+    <div class="column111" style="background-color:#d6caca;color:rgb(0, 0, 0);">
+
+        <div id="contain">
+            <font size="4" face="justify">
+                <table border="0" id="table_scroll">
+                    <thead>
+                        <tr>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody><br>
+                        <tr>
+                            <td>
+                                <blink><img src="image/new2.png" style="height:20px;width:4%;"></blink><span><b><a
+                                            href="https://doi.org/10.1016/j.renene.2023.02.036" target="_blank"
+                                            style="text-decoration:none;color:rgb(78, 19, 214)"> Molecular insights into
+                                            dissolution of
+                                            lignin bunch in ionic liquid-water mixture for enhanced biomass
+                                            conversion.</b><i> Renewable
+                                        Energy,</i>
+                                    (2023).</a></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <blink><img src="image/new2.png" style="height:20px;width:4%;"></blink><span><b><a
+                                            href="https://doi.org/10.1016/j.compbiomed.2023.106600" target="_blank"
+                                            style="text-decoration:none;color:rgb(78, 19, 214)"> Genome-scale community
+                                            modeling for
+                                            deciphering the inter-microbial metabolic interactions in fungus-farming
+                                            termite gut
+                                            microbiome.</b><i> Computers in Biology and Medicine,</i>
+                                    (2023).</a></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <blink><img src="image/new2.png" style="height:20px;width:4%;"></blink><span><b><a
+                                            href="https://doi.org/10.1021/acsapm.2c01588" target="_blank"
+                                            style="text-decoration:none;color:rgb(78, 19, 214)"> Pretreatment of Hevea
+                                            Latex by Sorbitol:
+                                            Improving the Efficacy of Silica Dispersion by a Biomimetic Approach.</b><i>
+                                        ACS Applied
+                                        Polymer Materials,</i>
+                                    (2023).</a></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <blink><img src="image/new2.png" style="height:20px;width:4%;"></blink><span><b><a
+                                            href="https://doi.org/10.1016/j.biotechadv.2022.108069" target="_blank"
+                                            style="text-decoration:none;color:rgb(78, 19, 214)"> Recent advances in
+                                            machine learning
+                                            applications in metabolic engineering.</b><br><i>
+                                        Biotechnology Advances,</i>
+                                    (2023).</a></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <blink><img src="image/new2.png" style="height:20px;width:4%;"></blink><span><b><a
+                                            href="https://doi.org/10.1016/j.biosystems.2022.104763" target="_blank"
+                                            style="text-decoration:none;color:rgb(78, 19, 214)"> Bacterial species
+                                            metabolic interaction
+                                            network for deciphering the lignocellulolytic system in fungal cultivating
+                                            termite gut
+                                            microbiota.</b><i> BioSystems,</i>
+                                    (2022).</a></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <blink><img src="image/new2.png" style="height:20px;width:4%;"></blink><span><b><a
+                                            href="https://doi.org/10.1016/j.compbiomed.2022.105997" target="_blank"
+                                            style="text-decoration:none;color:rgb(78, 19, 214)"> Metagenome-scale
+                                            community metabolic
+                                            modelling for understanding the role of gut microbiota in human
+                                            health.</b><i>
+                                        <br> Computers in Biology and Medicine,</i> (2022).</a></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <blink><img src="image/new2.png" style="height:20px;width:4%;"></blink><span><b><a
+                                            href="https://doi.org/10.1016/j.bbrc.2022.06.087" target="_blank"
+                                            style="text-decoration:none;color:rgb(78, 19, 214)"> In-silico
+                                            identification of critical
+                                            residues in the mannose-transfer mechanism of phosphatidyl-myo-inositol
+                                            mannosyltransferase
+                                            B'.</b><br><i>Biochemical and Biophysical Research Communications,</i>
+                                    (2022).</a></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <blink><img src="image/new2.png" style="height:20px;width:4%;"></blink><span><b><a
+                                            href="https://doi.org/10.1016/j.compbiomed.2022.105788" target="_blank"
+                                            style="text-decoration:none;color:rgb(78, 19, 214)"> In-silico screening and
+                                            in-vitro assay show
+                                            the antiviral effect of Indomethacin against SARS-CoV-2.</b><br><i>
+                                        Computers in Biology and Medicine</i> (2022).</a></span>
+                            </td>
+                        </tr>
+
+
+
+                    </tbody>
+
+                </table>
+                <h4 class="w3-hover-blue"><a href="publication.html">All Publications.........</a></h4>
+
+        </div>
+
+        <p></p>
+
+        <p></p>
+
+        </font>
+
+    </div> -->
+
+    <!-- The Tour Section -->
+    <!-- <div class="w3-black" id="tour">
+            <div class="w3-container w3-content w3-padding-64" style="width:500px">
+                <h2 class="w3-wide w3-center">UPCOMMINGS EVENTS</h2>
+                <p class="w3-opacity w3-center"><i>Remember to book your tickets!</i></p><br>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- Image of location/map -->
+    <!-- <a href="https://goo.gl/maps/BKRRZytaGuKh6RhW9"><img src="image\IMG-2557.PNG" class="w3-image w3-greyscale-min"
+            style="width:100%"></a> -->
+
+    <!-- Footer -->
+    <footer>
+        <div class="container_footer">
+            <div class="footer-col">
+                <h2>Address</h2>
+                <hr>
+                <ul class="first">
+                    <li>
+                        <div>
+                            <i class="fa fa-map-marker" style="width:30px"></i> <a
+                                href="https://goo.gl/maps/BKRRZytaGuKh6RhW9"> School of Energy Science and Engineering,
+                                <br> Sir J.C. Bose Laboratory Complex, <br>
+                                IIT Kharagpur 721302, West Bengal<br></a>
+                        </div>
+                    </li>
+                    <li><i class="fa fa-phone" style="width:30px"></i> Phone: +91-3222-260804<br></li>
+                    <li><i class="fa fa-envelope" style="width:30px"> </i> amitghosh@iitkgp.ac.in <br></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li><a href="News.html">News</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Awards</a></li>
+                    <li><a href="#">Collaborations</a></li>
+                  
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h2>Research summary</h2>
+                <ul>
+                    <li><a href="publication.html">All Publications</a></li>
+                    <li><a href="#">Current Projects</a></li>
+                    <li><a href="group.html">Student Details</a></li>
+                    <li><a href="#">Feedbacks</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+   
+
+    <script>
+        // Automatic Slideshow - change image every 4 seconds
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) { myIndex = 1 }
+            x[myIndex - 1].style.display = "block";
+            setTimeout(carousel, 4000);
+        }
+
+        // Used to toggle the menu on small screens when clicking on the menu button
+        function myFunction() {
+            var x = document.getElementById("navDemo");
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+            }
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        var modal = document.getElementById('ticketModal');
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+
+</body>
+
+</html>

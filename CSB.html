@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CSB-2023</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="CSS\style_1.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div class="w3-top">
+        <div class="w3-bar w3-indigo w3-card">
+            <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right"
+                href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i
+                    class="fa fa-bars"></i></a>
+            <a href="index.html" class="w3-bar-item w3-button w3-padding-large">Home</a>
+            <!-- <a href="about.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">About</a> -->
+            <a href="Research.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Research</a>
+            <a href="publication.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Publications</a>
+            <a href="Teaching.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Teaching</a>
+            <a href="News.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">News</a>
+            <a href="Team.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Team</a>
+            <a href="gallery.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Gallery</a>
+            <div class="w3-dropdown-hover w3-hide-small">
+                <button class="w3-padding-large w3-button" title="More">Tools</button>
+                <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                    <a href="Equipment.html" class="w3-bar-item w3-button">Equipment</a>
+                    <a href="HPC.html" class="w3-bar-item w3-button">Software</a>
+                </div>
+            </div>
+            <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i
+                    class="fa fa-search"></i></a>
+        </div>
+    </div>
+
+    <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+    <div id="navDemo" class="w3-bar-block w3-indigo w3-hide w3-hide-large w3-hide-medium w3-top"
+        style="margin-top:46px">
+        <a href="publication.html" class="w3-bar-item w3-button w3-padding-large"
+            onclick="myFunction()">Publications</a>
+        <a href="Research.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Research</a>
+        <a href="about.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">About</a>
+        <a href="Teaching.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Teaching</a>
+        <a href="Team.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Team</a>
+        <a href="gallery.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Gallery</a>
+        <a href="Equipment.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Equipment</a>
+        <a href="HPC.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Software</a>
+    </div>
+
+    <div class="container1" style="background-color: rgb(247, 247, 247);">
+        <div class="image1">
+            <img src="image\logo iitkgp.jpeg" style="height: 65px; height: 75px;">
+        </div>
+        <div class="text1">
+            <h1>SYSTEMS AND SYNTHETIC BIOLOGY LABORATORY</h1>
+        </div>
+    </div>
+
+
+    <div id="contener">
+        <h2 class="box3 w3-center w3-lime">CSB-2023</h2>
+        <h3 class="w3-text-red ">Tutorial 3 : Introduction to Protein-Ligand Docking using AutoDock</h3>
+        <img src="image/vina_tutorial_small.jpg" alt="" class="w3-image w3-border w3-padding">
+        <div class="w3-justify">
+            <h2 class="w3-text-brown ">This introductory tutorial is designed to have a hands-on experience on the
+                following
+                objectives:</h2>
+            <ol>
+                <li class="w3-justify"><b>Coordinate File Preparation for the Receptor and Ligand molecules using
+                        AutoDock Tools.</b> </li>
+                <li class="w3-justify"><b> Precalculation of atomic affinities using AutoGrid.</b> </li>
+                <li class="w3-justify"><b> Docking of ligands using AutoDock.</b> </li>
+                <li class="w3-justify"><b> Analysis of results using AutoDockTools.</b> </li>
+            </ol>
+        </div>
+        <font size="3" face="justify" class="w3-text-blue"><br>
+            <h3 class="w3-text-green">Some improtent file for Setup</h3>
+            <p>Tutorial Setup Files<a href="./download/Software.zip" class="w3-text-indigo">
+                    Download </a></p>
+            <p>AutoDock Tutorial Files  <a href="./download/Tutorial_Files.zip" class="w3-text-indigo"> Download</a></p>
+            <p>AutoDock Tutorial Manual <a href="./download/DockingTutorialManual.pdf" class="w3-text-indigo"> Download</a></p>
+           <p>CRD Files <a href="./download/first_25ns_5lignn_80EmimAc.tar.xz" class="w3-text-indigo"> Download</a></p>
+        </font>
+        <hr>
+        <div>
+            <h3 class="w3-text-red ">Tutorial 2 : Introduction to Molecular Dynamics Simulation using NAMD</h3>
+            <img src="image/namd_md.png" alt="" class="w3-image w3-padding" style="width: 95vh;">
+            <h2 class="w3-text-brown">This introductory tutorial is designed to have a hands-on experience on the steps of MD Simulation using
+                NAMD scalable molecular dynamics package:</h2 >
+            <ol>
+                <li>Processing of the raw PDB File
+                    <p>In this step the water molecules are removed from the raw PDB file.</p>
+                </li>
+                <li>Generating a Protein Structure File (PSF)
+                    <p>The processed PDB file is used to generate the Protein Structure File (PSF) that contains all the
+                        molecule specific information which is necessary to apply the force field parameters to a
+                        molecular system.</p>
+                </li>
+                <li>Solvating the Protein
+                    <p>After PSF file generation the protein is solvated in a water box using TIP3P water model to more
+                        closely resemble the cellular system.</p>
+                </li>
+                <li>Adding Ions to the system
+                    <p>Ions should be added in the water box to represent a more typical biological environment. They
+                        are especially necessary if the protein being studied carries an excess charge. In that case,
+                        the number of ions
+                        should be chosen to make the system neutral. On the other hand, ions can also be added to adjust
+                        a certain slat concentration in the system.</p>
+                </li>
+                <li>Performing Energy Minimization on the prepared system
+                    <p> In this step the energy minimization is performed so that the initial bad molecular contacts are
+                        released.</p>
+                </li>
+                <li>Equilibration followed by MD simulation
+                    <p>After the minimization the system must be equilibrated so that different properties (e.g. system
+                        density, system pressure, system volume, system temperature etc.) are converged. Once the system
+                        is equilibrated,
+                        the MD production run can be performed on the system.</p>
+                </li>
+                <li>Equilibration followed by MD simulationAnalysis of the trajectory
+                    <p>After the simulation, the trajectory data can be analyzed to decipher different parameters
+                        (RMSD,Hydrogen Bonding, Ramachandran Plot etc.) to study the dynamics of the protein during the
+                        simulation.</p>
+                </li>
+
+            </ol>
+            <font size="3" face="justify" class="w3-text-blue"><br>
+                <h3 class="w3-text-green">NAMD Setup Files</h3>
+                <p>NAMD Setup Files<a href="./download/NAMD_2.12.zip" class="w3-text-indigo">
+                        Download </a></p>
+                <p>Introduction to Different File Formats <a href="./download/Introduction_to_File_Formats.pdf" class="w3-text-indigo">
+                        Download</a></p>
+                <p>NAMD Tutorial Files   <a href="./download/Namd_Tutorial.zip" class="w3-text-indigo">Download</a></p>
+               <p>NAMD Tutorial Manual <a href="./download/NAMD_Tutorial_Manual.pdf"class="w3-text-indigo">Download</a> </p>
+            </font>
+        </div>
+        <hr>
+        <div>
+            <h3 class="w3-text-red ">Tutorial 1 : Introduction to Visual Molecular Dynamics (VMD)</h3>
+            <img src="image/vmd.png" alt="" class="w3-image w3-border w3-padding" style="width: 75vh;">
+            <h2 class="w3-text-brown">This introductory tutorial is designed to have a hands-on experience on the following objectives:</h2>
+            <ol>
+                <ul><b class="w3-text-cyan">1) Working with a Single Molecule</b>
+                    <li> Loading a Molecule in VMD</li>
+                    <li> Displaying the Molecule</li>
+                    <li>Different Graphical Representations</li>
+                    <li>Use of Sequence Viewer Extension</li>
+                    <li>Saving your work for future use</li>
+                </ul>
+                <ul> <b class="w3-text-cyan">2) Trajectories and Movie Making</b>
+                    <li>Loading Trajectories</li>
+                    <li>Main Menu Animation Tools</li>
+                    <li>Trajectory Visualization</li>
+                    <li>The Basics of Movie Making in VMD</li>
+                </ul>
+                <ul><b class="w3-text-cyan">3) The Basics of VMD Figure Rendering for high-resolution publication quality images</b>
+                    <li>Setting the Display Background</li>
+                    <li>Increasing the Resolution</li>
+                    <li>Colors and Materials</li>
+                    <li>Depth Perception</li>
+                    <li>Rendering</li>
+                </ul>
+            </ol>
+
+            <font size="3" face="justify" class="w3-text-blue"><br>
+                <h3 class="w3-text-green">OS for different Software</h3>
+                <p>VMD Setup for Linux OS<a href="./download/Linux_Installation.zip" class="w3-text-indigo">
+                        Download </a></p>
+                <p> VMD Setup for Windows OS<a href="./download/Windows_Installation.zip" class="w3-text-indigo">
+                        Download</a></p>
+                <p>VMD Tutorial Files <a href="./download/Windows_Installation.zip" class="w3-text-indigo"> Download</a></p>
+            </font>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Equipment</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="CSS\style_1.css">
+    <style>
+        body {
+            font-family: "Lato", sans-serif
+        }
+
+        .mySlides {
+            display: none
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <div class="w3-top">
+        <div class="w3-bar w3-indigo w3-card">
+            <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right"
+                href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i
+                    class="fa fa-bars"></i></a>
+            <a href="index.html" class="w3-bar-item w3-button w3-padding-large">Home</a>
+            <a href="Research.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Research</a>
+            <a href="publication.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Publications</a>
+            <a href="Teaching.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Teaching</a>
+            <a href="News.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">News</a>
+            <a href="Team.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Team</a>
+            <a href="gallery.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Gallery</a>
+            <div class="w3-dropdown-hover w3-hide-small">
+                <button class="w3-padding-large w3-button" title="More">Tools</button>
+                <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                    <a href="Equipment.html" class="w3-bar-item w3-button">Equipment</a>
+                    <a href="HPC.html" class="w3-bar-item w3-button">Software</a>
+                </div>
+            </div>
+            <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i
+                    class="fa fa-search"></i></a>
+        </div>
+    </div>
+
+    <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+    <div id="navDemo" class="w3-bar-block w3-indigo w3-hide w3-hide-large w3-hide-medium w3-top"
+        style="margin-top:46px">
+        <a href="publication.html" class="w3-bar-item w3-button w3-padding-large"
+            onclick="myFunction()">Publications</a>
+        <a href="Research.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Research</a>
+        <!-- <a href="News.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">News</a> -->
+        <a href="Teaching.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Teaching</a>
+        <a href="Team.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Team</a>
+        <a href="gallery.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Gallery</a>
+        <a href="Equipment.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Equipment</a>
+        <a href="HPC.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Software</a>
+    </div>
+    <div class="container1" style="background-color: rgb(247, 247, 247);">
+        <div class="image1">
+            <img src="image\logo iitkgp.jpeg" style="height: 65px; height: 75px;">
+        </div>
+        <div class="text1">
+            <h1>SYSTEMS AND SYNTHETIC BIOLOGY LABORATORY</h1>
+        </div>
+    </div>
+    <!-- WRITE YOU CONTENT FROM HAIR -->
+    <div id="contener">
+        <div class="box" style="text-align:center;">
+            <h3>Equipments Computational Lab</h3>
+        </div>
+        <div class="main">
+
+            <h2>High Performance Computing</h2>
+            <h3>Equipment</h3>
+            <!-- Equipment Gallery Grid -->
+            <div class="row">
+                <div class="column">
+                    <div class="content">
+                        <a href="https://ambermd.org/Installation.php">
+                            <img src="image\AMBER.webp" alt="AMBER" style="width:100%">
+                        </a>
+
+                        <h3>Amber 18</h3>
+                        <p>Assisted Model Building with Energy Refinement (Amber) is a suite of applications used for
+                            molecular modeling and performing molecular dynamics simulations .</p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="content">
+                        <img src="image/PNY1.png" alt="PNY" style="width:100%">
+                        <h3>Graphics Card</h3>
+                        <p>The NVIDIA Quadro P5000 workstation graphics card, powered by NVIDIA Pascal GPU technology,
+                            features a great memory capacity and enables an expansive visual workspace with quad display
+                            outputs. Work with larger models, complex visual effects and simulations.</p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="content">
+                        <a href="https://www.ks.uiuc.edu/Development/Download/download.cgi?PackageName=NAMD">
+                            <img src="image/NAMD.jpg" alt="NAMD" style="width:100%">
+                        </a>
+
+                        <h3>About</h3>
+                        <p>Nanoscale Molecular Dynamics is computer software for molecular dynamics simulation, written
+                            using the Charm++ parallel programming model. It is noted for its parallel efficiency and is
+                            often used to simulate large systems.</p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="content">
+                        <a href="https://www.ks.uiuc.edu/Development/Download/download.cgi?PackageName=VMD">
+                            <img src="image/vmd1.png" alt="VMD" style="width:100%">
+                        </a>
+
+                        <h3>About</h3>
+                        <p>Visual Molecular Dynamics is a molecular modelling and visualization computer program. VMD is
+                            developed mainly as a tool to view and analyze the results of molecular dynamics
+                            simulations. It also includes tools for working with volumetric data, sequence data, and
+                            arbitrary graphics objects.</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="content">
+                <a href="https://cytoscape.org/">
+                    <img src="image/cytoscape.png" alt="cytoscape" style="width:100%">
+                </a>
+
+                <h3>About</h3>
+                <p>Cytoscape is an open source bioinformatics software platform for visualizing molecular interaction
+                    networks and integrating with gene expression profiles and other state data . While Cytoscape is
+                    most commonly used for biological research applications, it
+                    is agnostic in terms of usage. Cytoscape can visualize and analyze network graphs of any kind
+                    involving nodes and edges (e.g., social networks). A vital aspect of the software architecture of
+                    Cytoscape is the use of plugins for specialized features. Plugins are developed by core developers
+                    and the greater user community.</p>
+
+            </div>
+
+            <div class="column">
+                <div class="content">
+                    <a href="https://www.mathworks.com/products/matlab.html">
+                        <img src="image/Matlab_Logo.png" alt="NAMD" style="width:100%">
+                    </a>
+
+                    <h3>About</h3>
+                    <p>MATLAB is a proprietary multi-paradigm programming language and numeric computing environment
+                        developed by MathWorks. MATLAB allows matrix manipulations, plotting of functions and data,
+                        implementation of algorithms, creation of user interfaces, and interfacing with programs written
+                        in other languages.</p>
+                </div>
+            </div>
+            <div class="column">
+                <div class="content">
+                    <a href="https://www.anaconda.com/download">
+                        <img src="image/Anaconda.png" alt="NAMD" style="width:100%">
+                    </a>
+
+                    <h3>About</h3>
+                    <p>Anaconda is a distribution of the Python and R programming languages for scientific computing,
+                        that aims to simplify package management and deployment. The distribution includes data-science
+                        packages suitable for Windows, Linux, and macOS..</p>
+                </div>
+            </div>
+
+            <!-- END MAIN -->
+        </div>
+
+    </div>
+
+
+
+
+    <script>
+        // Used to toggle the menu on small screens when clicking on the menu button
+        function myFunction() {
+            var x = document.getElementById("navDemo");
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+            }
+        }
+    </script>
+</body>
+
+</html>
